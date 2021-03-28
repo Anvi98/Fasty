@@ -325,6 +325,13 @@ code, pre {
   color: #047aed;
 }
 
+.footer >* {
+  align-items: flex-start;
+}
+.footer nav li a:hover {
+  color: #1c3fa8;
+}
+
 /* Animations */
 @keyframes slideInFromLeft {
   0% {
