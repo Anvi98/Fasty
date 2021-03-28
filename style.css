@@ -79,7 +79,45 @@ code, pre {
 }
 
 .navbar a:hover {
-  border-bottom: 2px solid #fff;
+ color: #b9b9b9;
+}
+
+.sign-in {
+  color: #fff;
+}
+
+.arrow {
+  font-size:15px;
+  color: #fff;
+}
+.test {
+  overflow: visible;
+}
+
+.drop {
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.droper {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  min-width: 190px;
+  z-index: 1000;
+}
+
+.droper a {
+  color: black;
+  text-decoration: none;
+}
+
+.drop:hover .droper {
+  display: block;
+}
+.droper a:hover {
+  color: #1c3fa8;
+  padding: 10px 16px;
 }
 
 /* Showcase */
@@ -203,6 +241,20 @@ code, pre {
 
 .languages .card:hover {
   transform: translateY(-15px);
+}
+
+.form-control-news{
+  background-color: rgba(221, 221, 221, 0.2);;
+  border: 0;
+  height: 25px;
+  margin-bottom: 10px;
+  padding: 10px;
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.form-control-news:focus {
+  outline: none;
 }
 /* Features */
 
