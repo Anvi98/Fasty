@@ -244,13 +244,14 @@ code, pre {
 }
 
 .form-control-news{
-  background-color: rgba(221, 221, 221, 0.2);;
+  background-color: rgba(221, 221, 221, 0.2);
+  border-radius: 2px;
   border: 0;
   height: 25px;
   margin-bottom: 10px;
-  padding: 10px;
+  padding: 20px 10px;
   color: #fff;
-  border-bottom: 2px solid #fff;
+  margin-bottom: 10px;
 }
 
 .form-control-news:focus {
@@ -308,6 +309,20 @@ code, pre {
 /* Footer */
 .footer .social a {
   margin: 0 10px;
+}
+
+.only {
+  margin-bottom: 10px;
+}
+
+.footer .social i {
+
+  margin-top: 50px 0;
+}
+
+.footer .social i:hover {
+
+  color: #047aed;
 }
 
 /* Animations */
